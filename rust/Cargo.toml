@@ -1,0 +1,14 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+capnp = "0.17.2"
+sha2 = "0.10.7"
+xxhash-rust = { version = "0.8.6", features = ["xxh3", "xxh64"] }
+
+[build-dependencies]
+capnpc = "0.17.2"
